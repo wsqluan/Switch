@@ -35,6 +35,20 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
