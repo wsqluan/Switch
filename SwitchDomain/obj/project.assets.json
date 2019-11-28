@@ -20,7 +20,7 @@
       "outputPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/luan/.config/NuGet/NuGet.Config"
+        "/Users/luan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -50,7 +50,13 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

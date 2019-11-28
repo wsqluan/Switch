@@ -4,17 +4,17 @@
     "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj": {}
   },
   "projects": {
-    "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj": {
+    "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/SwitchDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj",
-        "projectName": "SwitchInfra",
-        "projectPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj",
+        "projectUniqueName": "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/SwitchDomain.csproj",
+        "projectName": "SwitchDomain",
+        "projectPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/SwitchDomain.csproj",
         "packagesPath": "/Users/luan/.nuget/packages/",
-        "outputPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/obj/",
+        "outputPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luan/.config/NuGet/NuGet.Config"
+          "/Users/luan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -35,6 +35,60 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj",
+        "projectName": "SwitchInfra",
+        "projectPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/SwitchInfra.csproj",
+        "packagesPath": "/Users/luan/.nuget/packages/",
+        "outputPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchInfra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/SwitchDomain.csproj": {
+                "projectPath": "/Users/luan/RiderProjects/aulaSwitch/SwitchDomain/SwitchDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
@@ -43,6 +97,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -58,7 +120,13 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
